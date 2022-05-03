@@ -1,23 +1,10 @@
 
-//Se definen las variables
-let esSuperman: boolean = true;
-let esBatman: boolean;
-let esAcuaman: boolean = true;
+let avengers: number = 5;
+let villanos: number; // Se crea con un valor undefine
 
-if (esSuperman){
-  console.log("Estamos salvados");
+if(avengers > villanos){
+  console.log("Estamos salvados!")
+
 }else{
-  console.log("Ooops! ohhh");
-}
-
-esSuperman = convertirClark();
-
-if (esSuperman){
-  console.log("Estamos salvados");
-}else{
-  console.log("Ooops! ohhh");
-}
-
-function convertirClark(){
-  return false;
+  console.log("Estamos muertos!")
 }
