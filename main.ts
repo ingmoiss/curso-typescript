@@ -1,12 +1,15 @@
-let batman: string = "Batman";
-let linternaVerde:string = 'Linterna Verde';
-let volvanNegro:string = `Volcan negro`;
+let vengador:any = 123;
+let existe;
+let derrotas;
 
+vengador = "Dr. Strange";
+console.log( vengador.charAt(0));
 
-console.log(batman);
-console.log(linternaVerde);
-console.log(volvanNegro);
+vengador = 123.4545;
+console.log(vengador.toFixed(2));
 
-let concat:string = `Los heroes son: ${ batman }, ${ linternaVerde }, ${ volvanNegro }`;
+vengador = true;
+console.log(vengador);
 
-console.log(concat);
+console.log(existe);
+console.log(derrotas);
