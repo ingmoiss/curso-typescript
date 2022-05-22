@@ -1,9 +1,9 @@
 "use strict";
-let avengers = 5;
-let villanos; // Se crea con un valor undefine
-if (avengers > villanos) {
-    console.log("Estamos salvados!");
-}
-else {
-    console.log("Estamos muertos!");
-}
+let batman = "Batman";
+let linternaVerde = 'Linterna Verde';
+let volvanNegro = `Volcan negro`;
+console.log(batman);
+console.log(linternaVerde);
+console.log(volvanNegro);
+let concat = `Los heroes son: ${batman}, ${linternaVerde}, ${volvanNegro}`;
+console.log(concat);

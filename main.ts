@@ -1,10 +1,12 @@
+let batman: string = "Batman";
+let linternaVerde:string = 'Linterna Verde';
+let volvanNegro:string = `Volcan negro`;
 
-let avengers: number = 5;
-let villanos: number; // Se crea con un valor undefine
 
-if(avengers > villanos){
-  console.log("Estamos salvados!")
+console.log(batman);
+console.log(linternaVerde);
+console.log(volvanNegro);
 
-}else{
-  console.log("Estamos muertos!")
-}
+let concat:string = `Los heroes son: ${ batman }, ${ linternaVerde }, ${ volvanNegro }`;
+
+console.log(concat);
